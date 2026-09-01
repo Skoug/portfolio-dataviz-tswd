@@ -10,9 +10,9 @@ It's always helpful to keep track of your web URL.  Consider putting that somewh
 # Portfolio
 This is my public portfolio for Telling Stories with Data at CMU! This page details my journey through TSWD, and documents my final project: 
 
-The Green Lakes | Algae Blooms Killing the Great Lakes
+-The Green Lakes | Algae Blooms Killing the Great Lakes
 OR
- The Green Lakes | Consequences of Algae blooms in the Great Lakes. 
+-The Green Lakes | Consequences of Algae blooms in the Great Lakes. 
  
 # About me
 I am a second-year graduate student at Heinz College studying Public Policy and Management. I am passionate about changing the world for the better through quantitative analysis. I hope this repository will function as a map of what I learned through this class and what is still yet to come!
@@ -29,7 +29,8 @@ I am aim to work environmental policy, systems analysis, or financial policy-rel
      Human-made data analysis tools are still incredibly useful, even in the Artificial Intelligence era. 
 
 # Portfolio
-
+The Green Lakes | Algal Blooms Killing the Great Lakes
+     (INSERT DESCRIPTION OF WHAT PROJECT IS ABOUT HERE!)
 # Examples
 You can keep this section for stuff from in-class demos or your other work, or remove it. 
 

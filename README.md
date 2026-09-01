@@ -8,7 +8,12 @@ It's always helpful to keep track of your web URL.  Consider putting that somewh
 - This repository: https://github.com/Skoug/portfolio-dataviz-tswd
 
 # Portfolio
-This is my public portfolio for Telling Stories with Data at CMU! This page details my journey through TSWD, and documents my final project: The Green Lakes | Algae Blooms Killing the Great Lakes
+This is my public portfolio for Telling Stories with Data at CMU! This page details my journey through TSWD, and documents my final project: 
+
+The Green Lakes | Algae Blooms Killing the Great Lakes
+OR
+ The Green Lakes | Consequences of Algae blooms in the Great Lakes. 
+ 
 # About me
 I am a second-year graduate student at Heinz College studying Public Policy and Management. I am passionate about changing the world for the better through quantitative analysis. I hope this repository will function as a map of what I learned through this class and what is still yet to come!
 

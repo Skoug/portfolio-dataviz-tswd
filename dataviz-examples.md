@@ -73,5 +73,6 @@ I did not use AI in the drafting of this post or creation of my visualization. 
   vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    
   var scriptElement = document.createElement('script');                    
   scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
-  vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
-  
+  vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+</script>
+ This visualization was used as a demo in class. It is meant to copy a simple viz in a news article. 

@@ -62,7 +62,7 @@ Results:
 
 | Question | Interviewee 1 | Interviewee 2 | Interviewee 3 |
 |----------|-------------|-------------|-------------------|
-|      A    |Good design, grasps general concept quickly| Geolocation data useful for interpretation |Provides an informative hook and cites source, easy to understand|
+|      A    |Good design, grasps general concept quickly| Geolocation data useful, but large circles aren't as useful for locating where events occur specifically |Provides an informative hook and cites source, easy to understand|
 |      B    |Heatmap instead?|Use overlapping points, but create a gradient for cities with >1 report.|Overlapping points works well! |
 |      C    | Multiple vizzes on a dashboard | Doesn't need more info| Make a time slider variable to change the year displayed.|
 |      D    | UFO-positive people. Those who don't need to be convinced to believe| General US public | People who know the NUFORC |

@@ -70,7 +70,16 @@ Based on the suggestions of my peers, I needed to figure out how to differentiat
 
 ## Step five: build the solution
 
-_Include and describe your final solution here. It's also a good idea to summarize your thoughts on the process overall. When you're done with the assignment, this page should all the items mentioned in the assignment page on Canvas(a link or screenshot of the original data visualization, documentation explaining your process, a summary of your wireframes and user feedback, your final, redesigned data visualization, etc.)._
+<div class='tableauPlaceholder' id='viz1789668886373' style='position: relative'><noscript><a href='#'><img alt='UFO Sightings More Concentrated in Eastern States: Where will UFOs Appear Next?An exploration of 2022 Unidentified Flying Object (UFO) reports from the National UFO Research Center. https:&#47;&#47;pub-cee805df54de4b6c8f93bee984e3c725.r2.dev&#47;datasets&#47;2026-wk25- ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;QR&#47;QRPGB3T2P&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='path' value='shared&#47;QRPGB3T2P' /> <param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;QR&#47;QRPGB3T2P&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>
+<script type='text/javascript'>                    
+  var divElement = document.getElementById('viz1789668886373');                    
+  var vizElement = divElement.getElementsByTagName('object')[0];                    
+  vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    
+  var scriptElement = document.createElement('script');                    
+  scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+  vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+</script>
+
 
 My final visualization, "UFO Sightings More Concentrated in Eastern States: Where will UFOs Appear Next?", features data from the NUFORC displayed in a manner digestible for the public. The symbol map preset on Tableau allowed me to identify where UFOs are reported using latitude and longitude variables. When a user places their cursor on a report, key variables appear: the city the incident occurred in, the date of the sighting, and a summary of what the reporter saw. An interested user can scroll over each location, but the lack of labels on every point increases perceptibility for other audiences. 
 

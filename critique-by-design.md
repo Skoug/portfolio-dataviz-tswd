@@ -4,7 +4,7 @@
 
 ## Step one: the visualization
 
-<img width="1345" height="784" alt="makeoverMondayUFOSightings" src="https://github.com/user-attachments/assets/91160219-a276-4664-8fc4-60ef68574070" />
+<img width="1000" height="500" alt="makeoverMondayUFOSightings" src="https://github.com/user-attachments/assets/91160219-a276-4664-8fc4-60ef68574070" />
 #MakeoverMonday 2026 WK25/UFO Sightings. (2026, June 22). https://makeovermonday.vercel.app/dataset/2026-wk25-ufo-sightings
 
 
@@ -40,8 +40,8 @@ Also, I found the topic of the visualization, UFO sightings, to appeal to a larg
  In my redesign, I aim to add context as to why we see an outlier year in the original distribution. For the purposes of my visualization, I will focus specifically on 2022. This will help us explore why exactly the I want to incorporate location information included in the original dataset. We can test what parts of the country experienced the highest increase in UFO reports and if any patterns emerge between location and frequency of reports. My audience will increase as well: I want anyone from the U.S. to gain information on UFO sightings and why there was such a large increase in 2022. 
 
 I believe a map of the United States with points (circles) that highlight each report based on its location will increase interpretability of the data. I will use the latitude/longitude variable in the excel to plot the location of each report. The viz will use gray to define states and boundaries, with green for each point-- the green should be an alert shade. This green also related to our pre-conceived understanding of "green" aliens. The color variation will hopefully add visual intrigue. I will need to include a different title and legend for my graph. I think a fun title (perhaps misleading)  could be, "Where will aliens go next? | an exploration of 2022 UFO reports from the National UFO Research Center." 
-<img width="2185" height="1789" alt="Scanned_MakeoverMon_sketch_01" src="https://github.com/user-attachments/assets/4de86ffb-8c4b-423c-9c7f-8aa226e5a1fe" />
-<img width="2251" height="1895" alt="Scanned_MakeoverMon_Sketch_02" src="https://github.com/user-attachments/assets/ee0a4ab2-0edc-4104-81f5-d49ee4656838" />
+<img width="1000" height="500" alt="Scanned_MakeoverMon_sketch_01" src="https://github.com/user-attachments/assets/4de86ffb-8c4b-423c-9c7f-8aa226e5a1fe" />
+<img width="1000" height="500" alt="Scanned_MakeoverMon_Sketch_02" src="https://github.com/user-attachments/assets/ee0a4ab2-0edc-4104-81f5-d49ee4656838" />
 
 
 ## Step four: Test the solution

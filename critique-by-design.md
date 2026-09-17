@@ -80,7 +80,7 @@ Based on the suggestions of my peers, I needed to figure out how to differentiat
   vizElement.parentNode.insertBefore(scriptElement, vizElement);                
 </script>
 
-
+#### Description
 My final visualization, "UFO Sightings More Concentrated in Eastern States: Where will UFOs Appear Next?", features data from the NUFORC displayed in a manner digestible for the public. The symbol map preset on Tableau allowed me to identify where UFOs are reported using latitude and longitude variables. When a user places their cursor on a report, key variables appear: the city the incident occurred in, the date of the sighting, and a summary of what the reporter saw. An interested user can scroll over each location, but the lack of labels on every point increases perceptibility for other audiences. 
 
 Each pinpoint, representing a report, is placed on the geolocation where it occurred. My critique and my interviews with peers revealed that...

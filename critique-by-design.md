@@ -4,7 +4,7 @@
 
 ## Step one: the visualization
 
-<img width="1000" height="600" alt="makeoverMondayUFOSightings" src="https://github.com/user-attachments/assets/91160219-a276-4664-8fc4-60ef68574070" />
+<img width="1000" height="550" alt="makeoverMondayUFOSightings" src="https://github.com/user-attachments/assets/91160219-a276-4664-8fc4-60ef68574070" />
 #MakeoverMonday 2026 WK25/UFO Sightings. (2026, June 22). https://makeovermonday.vercel.app/dataset/2026-wk25-ufo-sightings
 
 

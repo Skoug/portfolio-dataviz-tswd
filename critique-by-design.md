@@ -2,15 +2,11 @@
 
 # Makeover Monday: UFO Sightings
 
-
-_For each step below, you should document your progress as you move forward.  In terms of tone, think of the writeup as though you're keeping journal of your step-by-step process.   You should include a any insights you gained from the critique method, and what it led you to think about when considering the redesign.  You should talk about how you moved next to the sketches, and any insights you gleaned from your user feedback.  Document what you changed based on the user feedback in your redesign.  Finally, talk about what your redesigned data visualization shows, why you selected the data visualization you did, and what you attempted to show or do differently._
-
-_You can include screenshots, sketches or other artifacts with your narrative to help tell the story of how you moved through the process.  Again, make sure to avoid including any personally identifying information about your interviewees (don't list full names, etc.).  While this template serves as a guide, make sure to reference the assignment writeup on Canvas for the official guidance.  This template does not include all guidance mentioned on the assignment page._
-
 ## Step one: the visualization
 
-https://makeovermonday.vercel.app/dataset/2026-wk25-ufo-sightings
 <img width="1345" height="784" alt="makeoverMondayUFOSightings" src="https://github.com/user-attachments/assets/91160219-a276-4664-8fc4-60ef68574070" />
+#MakeoverMonday 2026 WK25/UFO Sightings. (2026, June 22). https://makeovermonday.vercel.app/dataset/2026-wk25-ufo-sightings
+
 
 ### Why this Visualization?
 I wanted to challenge myself to find a visualization that is too simplified. Normally, in critiques, we want to remove extraneous details from existing visualizations. However, the original viz in this scenario had neither context nor conveyed an interesting story. This visualization challenged me to add detail without overwhelming my audience.
@@ -39,6 +35,7 @@ Also, I found the topic of the visualization, UFO sightings, to appeal to a larg
 
 #### Aesthetics: 3/10
   This viz is not ugly per-se, but it is not visually stimulating. The plain gray and limited elements gives the viz a plain look. While plain graphs are good in terms of    simplicity, they do not draw our audience's attention, nor tell an interesting story. The aesthetics of this visualization should be more focused on the topic-- UFOs. In   my redesign, I plan to use green and gray/silver, two colors commonly associated with the public conception of aliens. This will add to the aesthetics, visual intrigue,   and aid in the story I plan to tell. 
+  
 ## Step three: Sketch a solution
  In my redesign, I aim to add context as to why we see an outlier year in the original distribution. For the purposes of my visualization, I will focus specifically on 2022. This will help us explore why exactly the I want to incorporate location information included in the original dataset. We can test what parts of the country experienced the highest increase in UFO reports and if any patterns emerge between location and frequency of reports. My audience will increase as well: I want anyone from the U.S. to gain information on UFO sightings and why there was such a large increase in 2022. 
 
@@ -60,30 +57,49 @@ Questions I asked my group members, 3 fellow students at Carnegie Mellon's Heinz
 
 Results: 
 
-| Question | Interviewee 1 | Interviewee 2 | Interviewee 3 |
-|----------|-------------|-------------|-------------------|
-|      A    |Good design, grasps general concept quickly| Geolocation data useful, but large circles aren't as useful for locating where events occur specifically |Provides an informative hook and cites source, easy to understand|
-|      B    |Heatmap instead?|Use overlapping points, but create a gradient for cities with >1 report.|Overlapping points works well! |
-|      C    | Multiple vizzes on a dashboard | Doesn't need more info| Make a time slider variable to change the year displayed.|
-|      D    | UFO-positive people. Those who don't need to be convinced to believe| General US public | People who know the NUFORC |
+| Question | Interviewee 1 | Interviewee 2 | Interviewee 3 | Interviewee 4: Former TSWD student, taken after primary interviews | 
+|----------|-------------|-------------|-------------------|------------------------------------| 
+|      A    |Good design, grasps general concept quickly| Geolocation data useful, but large circles aren't as useful for locating where events occur specifically |Provides an informative hook and cites source, easy to understand| Change the title. Fun hook but doesn't show main takeaway/pattern in data. | 
+|      B    |Heatmap instead?|Use overlapping points, but create a gradient for cities with >1 report.| Overlapping points works well! | Keep the pinpoints / symbol map|
+|      C    | Multiple vizzes on a dashboard | Doesn't need more info, 1 year is enough.| Make a time slider variable to change the year displayed.| 1 year is enough. Simple / minimalistic for easier understanding. 
+|      D    | UFO-positive people. Those who don't need to be convinced to believe| General US public | People who know the NUFORC | Including the summary variable is good, audience is anyone entertained / interested in people's descriptions of UFO sightings | 
 
-Synthesis: 
+#### Synthesis: 
 
-  Based on the suggestions of my peers, I will DESCRIBE SOLUTION 
-
-  
-_What patterns in the feedback emerge?  What did you learn from the feedback?  Based on this feedback, come up with what design changes you think might make the most sense in your final redesign._
+Based on the suggestions of my peers, I needed to figure out how to differentiate different concentrations of reports across the map. I need to show, generally, where events occur vs. where they don't across the U.S., while still highlighting individual reports. This poses a challenge, as a heatmap shows general UFO report hotspots without focus on reports. I believe a pinpoint symbol map will work best to demonstrate the geolocation of the reports. Next, my group decided that while one year of information was useful for telling a story, more years of information could be useful for audience members who want to look deeper into the data. However, I think that multiple years of geolocation information will overwhelm my audience. Is there a way to find a happy medium? Finally, the audience for this visualization could vary. Many people could be interested in the nuances of "alien" sightings, whether they be skeptics or believers. In general, my audience will be people who are interested in UFOs, but not previously aware of the NUFORC. This visualization should be their first introduction to this dataset. 
 
 ## Step five: build the solution
 
 _Include and describe your final solution here. It's also a good idea to summarize your thoughts on the process overall. When you're done with the assignment, this page should all the items mentioned in the assignment page on Canvas(a link or screenshot of the original data visualization, documentation explaining your process, a summary of your wireframes and user feedback, your final, redesigned data visualization, etc.)._
 
+My final visualization, "UFO Sightings More Concentrated in Eastern States: Where will UFOs Appear Next?", features data from the NUFORC displayed in a manner digestible for the public. The symbol map preset on Tableau allowed me to identify where UFOs are reported using latitude and longitude variables. When a user places their cursor on a report, key variables appear: the city the incident occurred in, the date of the sighting, and a summary of what the reporter saw. An interested user can scroll over each location, but the lack of labels on every point increases perceptibility for other audiences. 
+
+Each pinpoint, representing a report, is placed on the geolocation where it occurred. My critique and my interviews with peers revealed that...
+
+1. People want to know where reports occur, but...
+2. A standard diverging color heatmap of reports will be too visually overwhelming.
+
+After experimentation in Tableau, I discovered that changing the opacity of each symbol can act as a quasi-heat map. Individual pinpoints will appear transparent (lighter in shade) than locations with many concentrated reports (deeper in shade). With each point at 30% opacity, we are able to see the individual symbols and also perceive differences in tone that convey concentration. Transparent symbols allowed my visualization to improve in perceptibility, intuitiveness, and aesthetic simplicity on the Stephen Few Effectiveness Profile, as compared to my drafts. 
+
+Next, to increase the trustworthiness of the data, I included a link to the original dataset published by the NUFORC. Readers can identify that this information is sourced from a Federal agency. Instead of blindly representing a trend in a dataset, like the Makeover Monday visualization, the link and title work in combination to contextualize the data. The title now explicitly mentions concentration of reports (based on geolocation): the title guides the reader to a conclusion, and the hook adds intrigue. My title is a bit long, but I wanted to convey my outtake from the data while preserving my original hook. The addition of a title will increase the score on intuitiveness, completeness, and truthfulness criteria.
+
+The process of critique helped me realize areas where my visualization was lacking-- who was the visualization for? How could I display concentrated vs. diffused reports across the nation? Experimentation in Tableau aided in this effort; I worked with the data and experimented with filters, color, shape, symbols, and more attributes of each report to finalize the visualization. I believe this visualization reaches my goal of demonstrating each report individually while showing the overall concentration of reports across the nation in 2022. Though this may not reflect the takeaway of the Makeover Monday visualization, I believe my choices more accurately represent different aspects of the NUFORC dataset and aids in comprehension for the general public. 
 
 ## References
-_List any references you used here._
+
+I interviewed a former _Telling Stories With Data_ student, who aided me in refining my title. Her expertise allowed me to reframe my conception of the titles' purpose: rather than act as a hook, it must also explicitly state the main takeaway of the viz, too. For interested graders, please contact me, and I will mention this student's name. I will not publish any personal information on my site. 
+
+Makeover Monday Post:
+#MakeoverMonday 2026 WK25/UFO Sightings. (2026, June 22). https://makeovermonday.vercel.app/dataset/2026-wk25-ufo-sightings
+
+Kaggle post used as a source by Makeover Monday:
+Arvidsson, J. (2023). UFO Sightings. Kaggle. https://www.kaggle.com/datasets/joebeachcapital/ufo-sightings
+
+Data Source: NUFORC
+National UFO Research Center. (2023). https://pub-cee805df54de4b6c8f93bee984e3c725.r2.dev/datasets/2026-wk25-ufo-sightings/ufo_data_nuforc.csv
 
 ## AI acknowledgements
-_If you used AI to help you complete this assignment (within the parameters of the instruction and course guidelines), detail your use of AI for this assignment here._
+No AI was used in the writing or the creation of visualizations within this assignment. 
 
 
 

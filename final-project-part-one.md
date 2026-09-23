@@ -32,28 +32,41 @@ I can do this by adapting new agricultural techniques that limit nitrogen enteri
 ## Initial sketches
 > Post images of your anticipated data visualizations (sketches are fine). They should mimic aspects of your outline, and include elements of your story.  
 
-Text here...
+<img src="sketches_final_tswd.jpg" width="750"/>
 
 # The data
 > A couple of paragraphs that document your data source(s), and an explanation of how you plan on using your data. 
 
-Text here...
+The data for this project comes from the National Oceanic and Atmospheric Administration and from U.S. Geological Surveys by the Department of the Interior. These two organizations research the Lakes' water quality by collecting water and sediment samples in the Great Lakes. I will use these samples to show the growth of algae over time, how the lakes look today, the presence and count of harmful algae blooms, and the oxygen levels in water / nitrification. Much of this data focuses on Lake Erie, which will benefit my case study. Also, NOAA releases economic output data for communities dependent on water through their Economics: National Ocean Watch datasets. This project will use their sectors dataset to chart tourism and agricultural output along the Lakes. 
 
 > A link to the publicly-accessible datasets you plan on using, or a link to a copy of the data you've uploaded to your Github repository, Box account or other publicly-accessible location. Using a datasource that is already publicly accessible is highly encouraged.  If you anticipate using a data source other than something that would be publicly available please talk to me first. 
 
 | Name | URL | Description |
 |------|-----|-------------|
-|      |     |             |
-|      |     |             |
-|      |     |             |
+| Potential for microbially mediated nitrogen transformations in benthic algae, sediment, and overlying water in the Great Lakes, NiCE (Nitrogen Cycle Evaluation), 2022 | https://catalog.data.gov/dataset/potential-for-microbially-mediated-nitrogen-transformations-in-benthic-algae-sediment-2022?from_hint=eyJzb3J0IjoicmVsZXZhbmNlIiwicSI6ImFsZ2FlIGdyZWF0IGxha2VzIiwic3BhdGlhbF9maWx0ZXIiOiJnZW9zcGF0aWFsIn0%3D | Water and sediment samples from all Great Lakes in 2022. Good for Erie-specific data AND comparisons across locations. |
+| Locations in NiCE |https://catalog.data.gov/dataset/potential-for-microbially-mediated-nitrogen-transformations-in-benthic-algae-sediment-2022?from_hint=eyJzb3J0IjoicmVsZXZhbmNlIiwicSI6ImFsZ2FlIGdyZWF0IGxha2VzIiwic3BhdGlhbF9maWx0ZXIiOiJnZW9zcGF0aWFsIn0%3D| Latitude and Longitude of testing sites in the NiCE.|
+| Benthic Algal Community Composition in the Laurentian Great Lakes (2024) |https://catalog.data.gov/dataset/benthic-algal-community-composition-in-the-laurentian-great-lakes-2024?from_hint=eyJxIjoiYWxnYWUgZ3JlYXQgbGFrZXMifQ%3D%3D| Types of Algae present in water, algae coverage. For all lakes. |
+| Lake Erie Weekly Field Sampling Data, Current Data| https://www.glerl.noaa.gov/res/HABs_and_Hypoxia/wle-weekly-current/| From the GLERL, Harmful Algae Bloom (HAB) tracking. Lake Erie only!| 
+| Lake Erie Environmental Sample Processor (ESP) Data| https://www.glerl.noaa.gov/res/HABs_and_Hypoxia/esp-data/ | measures concentration of Microcystin, one of the worst/most harmful species of algae.| 
+| Economics: National Ocean Watch Sectors| https://coast.noaa.gov/digitalcoast/data/enow.html| Need to filter for Great Lakes states, but shows the economic output of different industrial sectors along the lake. Very useful for showing profits to farmers-- how they can support their local economy by increasing tourism.| 
 
 # Method and medium
-> In a few sentences, you should document how you plan on completing your final project. 
 
-Text here...
+I will use Tableau and Shorthand to complete this project. I want my analysis to be visible for the public-- everyone should have access to my Shorthand site so farmers can be educated on the benefits of de-nitrification. My end goal is for farmers to share the resource among each other, so the project will need to be digestible and understandable for a non-academic audience. Interactive visualizations may be the most helpful to achieve this goal, thus informing my choice of Tableau. 
 
 ## References
-_List any references you used here._
+
+Department of the Interior—Benthic Algal Community Composition in the Laurentian Great Lakes. (2024). Data.Gov. Retrieved September 23, 2026, from http://catalog.data.gov/dataset/benthic-algal-community-composition-in-the-laurentian-great-lakes-2024
+
+Department of the Interior—Potential for microbially mediated nitrogen transformations in benthic algae, sediment, and overlying water in the Great Lakes. (2022). Data.Gov. Retrieved September 23, 2026, from http://catalog.data.gov/dataset/potential-for-microbially-mediated-nitrogen-transformations-in-benthic-algae-sediment-2022
+
+Harmful Algal Blooms (HABs) | CIGLR. (n.d.). Retrieved September 23, 2026, from https://ciglr.seas.umich.edu/project/harmful-algal-blooms-habs/
+
+Economics: National Ocean Watch. (n.d.). Retrieved September 23, 2026, from https://coast.noaa.gov/digitalcoast/data/enow.html
+
+US Department of Commerce, N. (2026-a). NOAA-GLERL Western Lake Erie Environmental Sample Processor data. Retrieved September 23, 2026, from https://www.glerl.noaa.gov/res/HABs_and_Hypoxia/esp-data/
+
+US Department of Commerce, N. (2026-b). NOAA-GLERL Western Lake Erie Weekly Field Sampling data. Retrieved September 23, 2026, from https://www.glerl.noaa.gov/res/HABs_and_Hypoxia/wle-weekly-current/
 
 ## AI acknowledgements
-_If you used AI to help you complete this assignment (within the parameters of the instruction and course guidelines), detail your use of AI for this assignment here._
+No Artificial Intelligence (AI) was used in the research or writing of this assignment. 

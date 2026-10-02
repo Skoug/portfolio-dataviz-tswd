@@ -107,13 +107,12 @@ My interview questions mostly revolved around my storyboard in Shorthand. I want
 
 | Questions               | Interview 1 (in-class interview with fellow TSWD students)| Interview 2 (in-class interview with fellow TSWD students) | Interview 3 (non-student)| Interview 4 (non-student)| 
 |-------------------------|--------------------------------|-------------|-------------|-------------------------| 
-| Does the storyboard speak to my audience? |  Make the audience clear from the introduction. You didn't mention your key audience until the "recommendation" at the end.  |  I appreciated the call out to farmers in the call to action. But, you can remove text bloat. It's a lot to read!| 
-| Should I include more/less visualizations? |  3-4 visualizations works. Nothing is distracting from the message. | Agreed, 3-4 visualizations works due to the vizzes having different topics/insights.|
-|  How does the visual design of the storyboard convey the story? | I liked the story arc presented. Personal photos are a nice touch. | Please change the shade of green you used for the background! It's hard to read the text from far away.| 
+| Does the storyboard speak to my audience? |  Make the audience clear from the introduction. You didn't mention your key audience until the "recommendation" at the end.  |  I appreciated the call out to farmers in the call to action. But, you can remove text bloat. It's a lot to read!| Funding opportunities are good for keeping farmers "happy" | Liked the images, calls to people in the region who are familiar with the sights!| 
+| Should I include more/less visualizations? |  3-4 visualizations works. Nothing is distracting from the message. | Agreed, 3-4 visualizations works due to the vizzes having different topics/insights.| no comment, 3 is good. | Also fine with 3! | 
+|  How does the visual design of the storyboard convey the story? | I liked the story arc presented. Personal photos are a nice touch. | Please change the shade of green you used for the background! It's hard to read the text from far away.| Images convey audience well, speaks to people who have been these notable locations (like me!) | The design is professional and easy to read. Visualizations fill in context gaps | 
 
 
 # Identified changes for Part III
-> Document the changes you plan on implementing next week to address any issues identified.  
 
 
 

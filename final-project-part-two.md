@@ -2,6 +2,8 @@
 
 # Wireframes / storyboards
 
+Link to my shorthand: https://carnegiemellon.shorthandstories.com/the-green-lakes-Skoug/index.html
+
 My storyboard includes 3 visualizations:
 
 1. Where algae forms: Using tableau, I mapped GLERL monitoring buoy locations in Western Lake Erie, along with the concentration of algae sediments found at each location. This data is recent, but I collected it a few weeks ago during week 1. I believe it is still representative of algae blooms during the summer, though.

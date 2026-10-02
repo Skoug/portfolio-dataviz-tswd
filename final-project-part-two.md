@@ -1,11 +1,19 @@
 | [home page](https://cmustudent.github.io/tswd-portfolio-templates/) | [data viz examples](dataviz-examples) | [critique by design](critique-by-design) | [final project I](final-project-part-one) | [final project II](final-project-part-two) | [final project III](final-project-part-three) |
 
 # Wireframes / storyboards
-> Using your sketches developed last week, further develop your story outline and relevant components visually through the use of wireframing / storyboards. Using your outline as a guide, include high-fidelity, individual draft data visualizations of the critical elements of your story you want to share with your reader. Note: you can build these elements out directly in Shorthand this week if you wish.  Reminder: this template is intended to help, but it doesn't substitute for reading through the full homework assignment!  The assignment page on Canvas includes many important details for completing Part II of the final project. 
 
 My storyboard includes 3 visualizations:
 
-1. Where algae forms: Using tableau, I mapped GLERL monitoring buoy locations in Western Lake Erie, along with the concentration of algae sediments found at each location. This data is recent, but I collected it a few weeks ago during week 1. I believe it is still representative of algae blooms during the summer, though. 
+1. Where algae forms: Using tableau, I mapped GLERL monitoring buoy locations in Western Lake Erie, along with the concentration of algae sediments found at each location. This data is recent, but I collected it a few weeks ago during week 1. I believe it is still representative of algae blooms during the summer, though.
+
+  <div class='tableauPlaceholder' id='viz1790905794043' style='position: relative'><noscript><a href='#'><img alt='Harmful Algae Blooms More Concentrated in August and SeptemberNOAA - Great Lakes Environmental Research Laboratory, Summer 2026 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;HA&#47;HABConcentration--FinalProject&#47;Sheet1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='HABConcentration--FinalProject&#47;Sheet1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;HA&#47;HABConcentration--FinalProject&#47;Sheet1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    
+    var divElement = document.getElementById('viz1790905794043');                    
+    var vizElement = divElement.getElementsByTagName('object')[0];                    
+    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    
+    var scriptElement = document.createElement('script');                    
+    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+    vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+  </script>
 
 2. Harmful Algae Blooms (HABs): This visualization uses Environmental Sensor Processor data to track the presence and quantity of microcystin, one of the most prevalent harmful algae species. It shows the amount of toxin present in the water based on color and size. I would normally just use color to show the distribution of toxin percentages, but since measurements occurred around the same region, they all overlapped on the map. I believe this mix of both size and color variation best demonstrates the danger of toxins. However, it may lead people to believe that is where algae forms. I have yet to find a solution to that problem.
 
@@ -33,10 +41,9 @@ In trying to find people to interview, I want to speak with people who are famil
 
 
 ## Interview findings
-> Detail the findings from your interviews.  Do not include PII.  Capture specific insights where possible.
 
-My interview questions mostly revolved around my storyboard in Shorthand. I wanted the 
-Text here!
+My interview questions mostly revolved around my storyboard in Shorthand. I wanted to refine the visualizations on my own time, but I needed more feedback on my story and Shorthand site. 
+
 
 | Questions               | Interview 1 (in-class interview with fellow TSWD students)| Interview 2 (in-class interview with fellow TSWD students) | Interview 3 (non-student)| Interview 4 (non-student)| 
 |-------------------------|--------------------------------|-------------|-------------|-------------------------| 
@@ -48,23 +55,18 @@ Text here!
 # Identified changes for Part III
 > Document the changes you plan on implementing next week to address any issues identified.  
 
-Text here!
+
 
 | Research synthesis                       | Anticipated changes for Part III                                                |
 |------------------------------------------|---------------------------------------------------------------------------------|
-| Findings or observations from interviews | Describe what, if any changes you anticipate making to address the observation. |
+| Clean up HTML | Some visualizations are not appearing correctly at first glance. Formatting is off... had to go full screen to show viz.  |
 |  Shade of Green  |   I will choose a more muted shade of green.    |
 |   Immediately address stakeholders | Remove bloated text from introduction, instead immediately address my audience. Perhaps I can change the subtitle of my project, too. |
 | Work on visualizations | I had rough draft visualizations prepared for these interviews. I need to make more robust vizzes that match the aesthetic choices I used in the Shorthand site.|
 | Text legibility  |   Change color AND bold / use different color for important outtakes.  |
 
-> ...include any final thoughts you have here. 
 
 
-# Moodboards / personas
-> If you did this optional part, include details here.  Otherwise remove this section
-
-Text here!
 
 ## References
 I will list my full references for the assignment (so far) here: Not all of these sites were used to inform this specific part of the project. 

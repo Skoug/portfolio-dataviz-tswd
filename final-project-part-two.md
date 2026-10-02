@@ -8,14 +8,72 @@ My storyboard includes 3 visualizations:
 
 1. Where algae forms: Using tableau, I mapped GLERL monitoring buoy locations in Western Lake Erie, along with the concentration of algae sediments found at each location. This data is recent, but I collected it a few weeks ago during week 1. I believe it is still representative of algae blooms during the summer, though.
 
-  <div class='tableauPlaceholder' id='viz1790905794043' style='position: relative'><noscript><a href='#'><img alt='Harmful Algae Blooms More Concentrated in August and SeptemberNOAA - Great Lakes Environmental Research Laboratory, Summer 2026 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;HA&#47;HABConcentration--FinalProject&#47;Sheet1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='HABConcentration--FinalProject&#47;Sheet1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;HA&#47;HABConcentration--FinalProject&#47;Sheet1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    
-    var divElement = document.getElementById('viz1790905794043');                    
-    var vizElement = divElement.getElementsByTagName('object')[0];                    
-    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    
-    var scriptElement = document.createElement('script');                    
-    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
-    vizElement.parentNode.insertBefore(scriptElement, vizElement);                
-  </script>
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Harmful Algae Blooms</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f5f5f5;
+        }
+
+        .header {
+            max-width: 1200px;
+            margin: 40px auto 20px;
+            padding: 0 20px;
+        }
+
+        h1 {
+            margin-bottom: 10px;
+        }
+
+        .description {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        .tableau-container {
+            max-width: 1200px;
+            margin: 0 auto 40px;
+            padding: 0 20px;
+        }
+
+        iframe {
+            width: 100%;
+            height: 700px;
+            border: none;
+            background: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>Harmful Algae Blooms More Concentrated in August and September</h1>
+
+        <p class="description">
+            NOAA - Great Lakes Environmental Research Laboratory, Summer 2026
+        </p>
+    </div>
+
+    <div class="tableau-container">
+
+        <iframe
+            src="https://public.tableau.com/views/HABConcentration--FinalProject/Sheet1?:showVizHome=no"
+            allowfullscreen>
+        </iframe>
+
+    </div>
+
+</body>
+</html>
 
 2. Harmful Algae Blooms (HABs): This visualization uses Environmental Sensor Processor data to track the presence and quantity of microcystin, one of the most prevalent harmful algae species. It shows the amount of toxin present in the water based on color and size. I would normally just use color to show the distribution of toxin percentages, but since measurements occurred around the same region, they all overlapped on the map. I believe this mix of both size and color variation best demonstrates the danger of toxins. However, it may lead people to believe that is where algae forms. I have yet to find a solution to that problem.
 

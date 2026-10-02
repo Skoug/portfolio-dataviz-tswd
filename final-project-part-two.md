@@ -8,78 +8,46 @@ My storyboard includes 3 visualizations:
 
 1. Where algae forms: Using tableau, I mapped GLERL monitoring buoy locations in Western Lake Erie, along with the concentration of algae sediments found at each location. This data is recent, but I collected it a few weeks ago during week 1. I believe it is still representative of algae blooms during the summer, though.
 
+```markdown
+<p align="center">
+  <a href="https://public.tableau.com/shared/K74ZPQDS9">
+    <img
+      src="https://public.tableau.com/static/images/K7/K74ZPQDS9/1.png"
+      alt="Algae Sediments Most Prevalent in Lake Erie — U.S. Geological Survey 2024"
+      width="100%"
+    />
+  </a>
+</p>
+```
 
 2. Harmful Algae Blooms (HABs): This visualization uses Environmental Sensor Processor data to track the presence and quantity of microcystin, one of the most prevalent harmful algae species. It shows the amount of toxin present in the water based on color and size. I would normally just use color to show the distribution of toxin percentages, but since measurements occurred around the same region, they all overlapped on the map. I believe this mix of both size and color variation best demonstrates the danger of toxins. However, it may lead people to believe that is where algae forms. I have yet to find a solution to that problem.
 
- <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+```markdown
+<p align="center">
+  <a href="https://public.tableau.com/views/HABConcentration--FinalProject/Sheet1?:showVizHome=no">
+    <img
+      src="https://public.tableau.com/static/images/HA/HABConcentration--FinalProject/Sheet1/1.png"
+      alt="Harmful Algae Blooms More Concentrated in August and September — NOAA Great Lakes Environmental Research Laboratory, Summer 2026"
+      width="100%"
+    />
+  </a>
+</p>
+```
 
-    <title>Harmful Algae Blooms</title>
-
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            background-color: #f5f5f5;
-        }
-
-        .header {
-            max-width: 1200px;
-            margin: 40px auto 20px;
-            padding: 0 20px;
-        }
-
-        h1 {
-            margin-bottom: 10px;
-        }
-
-        .description {
-            font-size: 16px;
-            line-height: 1.5;
-        }
-
-        .tableau-container {
-            max-width: 1200px;
-            margin: 0 auto 40px;
-            padding: 0 20px;
-        }
-
-        iframe {
-            width: 100%;
-            height: 700px;
-            border: none;
-            background: white;
-        }
-    </style>
-</head>
-
-<body>
-
-    <div class="header">
-        <h1>Harmful Algae Blooms More Concentrated in August and September</h1>
-
-        <p class="description">
-            NOAA - Great Lakes Environmental Research Laboratory, Summer 2026
-        </p>
-    </div>
-
-    <div class="tableau-container">
-
-        <iframe
-            src="https://public.tableau.com/views/HABConcentration--FinalProject/Sheet1?:showVizHome=no"
-            allowfullscreen>
-        </iframe>
-
-    </div>
-
-</body>
-</html>
 
 3. Economic Output: This diagram shows the economic output for economic sectors that rely on the Great Lakes-- namely fishing and tourism. These industries will be the most impacted by the spread of algae blooms. It can show farmers the wider impact of their actions on their surrounding communities. 
 
+```markdown
+<p align="center">
+  <a href="https://public.tableau.com/views/TourismShippingontheGreatLakes_tswd_final/Sheet1">
+    <img
+      src="https://public.tableau.com/static/images/To/TourismShippingontheGreatLakes_tswd_final/Sheet1/1.png"
+      alt="Tourism Has Greater Economic Impact Than Shipping Along Michigan and Ohio Coastal Regions"
+      width="100%"
+    />
+  </a>
+</p>
+```
 
 # User research 
 
@@ -155,5 +123,5 @@ NOAA Office for Coastal Management. (2024). Economics: National Ocean Watch. Dig
 US Department of Commerce, N. (n.d.). HABs Monitoring. Retrieved September 30, 2026, from https://www.glerl.noaa.gov/res/HABs_and_Hypoxia/habsMon.html
 
 ## AI acknowledgements
-No AI was used in the research or production of this assignment, nor in the shorthand site or tableau visualizations. 
+No AI was used in the research or writing of this assignment, nor in the shorthand site or tableau visualizations. 
 

@@ -8,6 +8,9 @@ My storyboard includes 3 visualizations:
 
 1. Where algae forms: Using tableau, I mapped GLERL monitoring buoy locations in Western Lake Erie, along with the concentration of algae sediments found at each location. This data is recent, but I collected it a few weeks ago during week 1. I believe it is still representative of algae blooms during the summer, though.
 
+
+2. Harmful Algae Blooms (HABs): This visualization uses Environmental Sensor Processor data to track the presence and quantity of microcystin, one of the most prevalent harmful algae species. It shows the amount of toxin present in the water based on color and size. I would normally just use color to show the distribution of toxin percentages, but since measurements occurred around the same region, they all overlapped on the map. I believe this mix of both size and color variation best demonstrates the danger of toxins. However, it may lead people to believe that is where algae forms. I have yet to find a solution to that problem.
+
  <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -74,8 +77,6 @@ My storyboard includes 3 visualizations:
 
 </body>
 </html>
-
-2. Harmful Algae Blooms (HABs): This visualization uses Environmental Sensor Processor data to track the presence and quantity of microcystin, one of the most prevalent harmful algae species. It shows the amount of toxin present in the water based on color and size. I would normally just use color to show the distribution of toxin percentages, but since measurements occurred around the same region, they all overlapped on the map. I believe this mix of both size and color variation best demonstrates the danger of toxins. However, it may lead people to believe that is where algae forms. I have yet to find a solution to that problem.
 
 3. Economic Output: This diagram shows the economic output for economic sectors that rely on the Great Lakes-- namely fishing and tourism. These industries will be the most impacted by the spread of algae blooms. It can show farmers the wider impact of their actions on their surrounding communities. 
 

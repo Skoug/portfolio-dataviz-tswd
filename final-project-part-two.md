@@ -7,9 +7,10 @@ My storyboard includes 3 visualizations:
 
 1. Where algae forms: Using tableau, I mapped GLERL monitoring buoy locations in Western Lake Erie, along with the concentration of algae sediments found at each location. This data is recent, but I collected it a few weeks ago during week 1. I believe it is still representative of algae blooms during the summer, though. 
 
-2. Harmful Algae Blooms (HABs): This visualization uses Environmental Sensor Processor data to track the presence and quantity of microcystin, one of the most prevalent harmful algae species. It shows the quan
-3. 
-4. 
+2. Harmful Algae Blooms (HABs): This visualization uses Environmental Sensor Processor data to track the presence and quantity of microcystin, one of the most prevalent harmful algae species. It shows the amount of toxin present in the water based on color and size. I would normally just use color to show the distribution of toxin percentages, but since measurements occurred around the same region, they all overlapped on the map. I believe this mix of both size and color variation best demonstrates the danger of toxins. However, it may lead people to believe that is where algae forms. I have yet to find a solution to that problem.
+
+3. Economic Output: This diagram shows the economic output for economic sectors that rely on the Great Lakes-- namely fishing and tourism. These industries will be the most impacted by the spread of algae blooms. It can show farmers the wider impact of their actions on their surrounding communities. 
+
 
 # User research 
 
@@ -66,7 +67,30 @@ Text here!
 Text here!
 
 ## References
-_List any references you used here._
+I will list my full references for the assignment (so far) here: Not all of these sites were used to inform this specific part of the project. 
+Department of the Interior—Benthic Algal Community Composition in the Laurentian Great Lakes. (2024). Data.Gov. Retrieved September 23, 2026, from http://catalog.data.gov/dataset/benthic-algal-community-composition-in-the-laurentian-great-lakes-2024
+
+Department of the Interior—Potential for microbially mediated nitrogen transformations in benthic algae, sediment, and overlying water in the Great Lakes. (2022). Data.Gov. Retrieved September 23, 2026, from http://catalog.data.gov/dataset/potential-for-microbially-mediated-nitrogen-transformations-in-benthic-algae-sediment-2022
+
+Harmful Algal Blooms (HABs), CIGLR. (n.d.). Retrieved September 23, 2026, from https://ciglr.seas.umich.edu/project/harmful-algal-blooms-habs/
+
+Economics: National Ocean Watch. (n.d.). Retrieved September 23, 2026, from https://coast.noaa.gov/digitalcoast/data/enow.html
+
+US Department of Commerce, N. (2026-a). NOAA-GLERL Western Lake Erie Environmental Sample Processor data. Retrieved September 23, 2026, from https://www.glerl.noaa.gov/res/HABs_and_Hypoxia/esp-data/
+
+US Department of Commerce, N. (2026-b). NOAA-GLERL Western Lake Erie Weekly Field Sampling data. Retrieved September 23, 2026, from https://www.glerl.noaa.gov/res/HABs_and_Hypoxia/wle-weekly-current/
+
+American Farmland Trust. (n.d.). Protecting the Great Lakes through a Farm Navigator Network. American Farmland Trust. Retrieved October 1, 2026, from https://farmland.org/protecting-the-great-lakes-through-a-farm-navigator-network
+
+Causes of HABs and Toxicity. (n.d.). NCCOS - National Centers for Coastal Ocean Science. Retrieved October 1, 2026, from https://coastalscience.noaa.gov/science-areas/habs/causes-of-habs-toxicity/
+
+CDC. (2025, December 9). Symptoms Caused by Harmful Algal Blooms. Harmful Algal Bloom (HAB)-Associated Illness. https://www.cdc.gov/harmful-algal-blooms/signs-symptoms/index.html
+
+Michigan State University. (n.d.). Great Lakes Partnership for Food and Farm Development. Great Lakes Partnership for Food and Farm Development. Retrieved October 1, 2026, from https://www.canr.msu.edu/glp-ffd
+
+NOAA Office for Coastal Management. (2024). Economics: National Ocean Watch. Digital Coast. https://coast.noaa.gov/digitalcoast/data/enow.html
+
+US Department of Commerce, N. (n.d.). HABs Monitoring. Retrieved September 30, 2026, from https://www.glerl.noaa.gov/res/HABs_and_Hypoxia/habsMon.html
 
 ## AI acknowledgements
 No AI was used in the research or production of this assignment, nor in the shorthand site or tableau visualizations. 

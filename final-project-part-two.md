@@ -8,46 +8,40 @@ My storyboard includes 3 visualizations:
 
 1. Where algae forms: Using tableau, I mapped GLERL monitoring buoy locations in Western Lake Erie, along with the concentration of algae sediments found at each location. This data is recent, but I collected it a few weeks ago during week 1. I believe it is still representative of algae blooms during the summer, though.
 
-```markdown
-<p align="center">
-  <a href="https://public.tableau.com/shared/K74ZPQDS9">
-    <img
-      src="https://public.tableau.com/static/images/K7/K74ZPQDS9/1.png"
-      alt="Algae Sediments Most Prevalent in Lake Erie — U.S. Geological Survey 2024"
-      width="100%"
-    />
-  </a>
-</p>
-```
+<div class='tableauPlaceholder' id='viz1790969096217' style='position: relative'><noscript><a href='#'><img alt='Algae Sediments Most Prevalent in Lake ErieU.S. Geological Survey 2024 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Al&#47;AlgaeSedimentsMostPrevalentinLakeErie&#47;Sheet1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='AlgaeSedimentsMostPrevalentinLakeErie&#47;Sheet1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Al&#47;AlgaeSedimentsMostPrevalentinLakeErie&#47;Sheet1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                
+<script type='text/javascript'>                    
+  var divElement = document.getElementById('viz1790969096217');                    
+  var vizElement = divElement.getElementsByTagName('object')[0];                    
+  vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    
+  var scriptElement = document.createElement('script');                    
+  scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+  vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+</script>
 
 2. Harmful Algae Blooms (HABs): This visualization uses Environmental Sensor Processor data to track the presence and quantity of microcystin, one of the most prevalent harmful algae species. It shows the amount of toxin present in the water based on color and size. I would normally just use color to show the distribution of toxin percentages, but since measurements occurred around the same region, they all overlapped on the map. I believe this mix of both size and color variation best demonstrates the danger of toxins. However, it may lead people to believe that is where algae forms. I have yet to find a solution to that problem.
 
-```markdown
-<p align="center">
-  <a href="https://public.tableau.com/views/HABConcentration--FinalProject/Sheet1?:showVizHome=no">
-    <img
-      src="https://public.tableau.com/static/images/HA/HABConcentration--FinalProject/Sheet1/1.png"
-      alt="Harmful Algae Blooms More Concentrated in August and September — NOAA Great Lakes Environmental Research Laboratory, Summer 2026"
-      width="100%"
-    />
-  </a>
-</p>
-```
+<div class='tableauPlaceholder' id='viz1790968878711' style='position: relative'><noscript><a href='#'><img alt='Harmful Algae Blooms More Concentrated in August and SeptemberNOAA - Great Lakes Environmental Research Laboratory, Summer 2026 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;HA&#47;HABConcentration--FinalProject&#47;Sheet1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='HABConcentration--FinalProject&#47;Sheet1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;HA&#47;HABConcentration--FinalProject&#47;Sheet1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                
+<script type='text/javascript'>                    
+  var divElement = document.getElementById('viz1790968878711');                    
+  var vizElement = divElement.getElementsByTagName('object')[0];                    
+  vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    
+  var scriptElement = document.createElement('script');                    
+  scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+  vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+</script>
+
 
 
 3. Economic Output: This diagram shows the economic output for economic sectors that rely on the Great Lakes-- namely fishing and tourism. These industries will be the most impacted by the spread of algae blooms. It can show farmers the wider impact of their actions on their surrounding communities. 
 
-```markdown
-<p align="center">
-  <a href="https://public.tableau.com/views/TourismShippingontheGreatLakes_tswd_final/Sheet1">
-    <img
-      src="https://public.tableau.com/static/images/To/TourismShippingontheGreatLakes_tswd_final/Sheet1/1.png"
-      alt="Tourism Has Greater Economic Impact Than Shipping Along Michigan and Ohio Coastal Regions"
-      width="100%"
-    />
-  </a>
-</p>
-```
+<div class='tableauPlaceholder' id='viz1790968359973' style='position: relative'><noscript><a href='#'><img alt='Tourism Has Greater Economic Impact Than Shipping Along Michigan and Ohio Coastal Regions. Economics: National Ocean Watch from National Oceanic and Atmospheric Administration.  ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;To&#47;TourismShippingontheGreatLakes_tswd_final&#47;Sheet1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='TourismShippingontheGreatLakes_tswd_final&#47;Sheet1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;To&#47;TourismShippingontheGreatLakes_tswd_final&#47;Sheet1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    
+  var divElement = document.getElementById('viz1790968359973');                    
+  var vizElement = divElement.getElementsByTagName('object')[0];                    
+  vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    
+  var scriptElement = document.createElement('script');                    
+  scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+  vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+</script>
 
 # User research 
 

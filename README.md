@@ -39,12 +39,9 @@ For this assignment, make sure you set up and link to a new page.  This page is 
 ## Assignment 3&4: [Critique by Design](critique-by-design)
 For this assignment, make sure you set up and link to a new page.  This page is linking to a new Markdown document called `critique-by-design.md`.  
 
-## Final project: The Green Lakes | Consequences of Algae blooms in the Great Lakes. 
+## Final project: The Green Lakes | Consequences of Algae blooms in the Great Lakes [Part I](final-project-part-one) [Part II](final-project-part-two) [Part III](final-project-part-three)
 
  Addresses the Great Lakes algae blooms for farmers. Suggests that farmers adopt new technologies in order to preserve the ecosystem and environment of the Great Lakes Region. 
-[Part I](final-project-part-one)
-[Part II](final-project-part-two)
-[Part III](final-project-part-three)
 
 https://carnegiemellon.shorthandstories.com/the-green-lakes-Skoug/index.html
 

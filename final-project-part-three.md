@@ -36,6 +36,8 @@ No Artificial Intelligence (AI) was used in the creation of this assignment or i
 
 # Final thoughts
 
-I enjoyed this project. It gave me a rare opportunity to focus on a policy problem I want to help resolve within my lifetime. I also got to practice less formal writing styles, which I will likely use in my career as a policy professional when addressing the public. Finally, I enjoyed creating visualizations using real, complex, and messy datasets. Many columns were misformatted, had null values,  or did not have a direct explanation of what they measured. I had to cross reference publicly available research papers to determine what exactly "DO-mglU" meant, for example. This exercise was a great introduction to how I can use data visualization in my career moving forward. 
+I enjoyed this project. It gave me a rare opportunity to focus on a policy problem I want to help resolve within my lifetime. I also got to practice less formal writing styles, which I will likely use in my career as a policy professional when addressing the public. Next, I created visualizations using real, complex, and messy datasets. Many columns were misformatted, had null values,  or did not have a direct explanation of what they measured. I had to cross reference publicly available research papers to determine what exactly "DO-mglU" meant, for example. Finally, the 1-minute presentation associated with Part III was difficult. I have always struggled with elevator pitches. Part III of this project challenged me to create a concise and persuasive speech. This exercise was a great introduction to how I can use data visualization in my career moving forward!
+
+
 
 
